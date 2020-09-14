@@ -1,0 +1,136 @@
+/* Css retouch by Rodolfo Diaz */
+/*using a logic of stacking blocks*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ }
+
+body {
+    background-color: #d9dcd6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    background-size: cover;
+    color: #ffffff;
+}
+
+/* This ID element is within the header */
+#mainp{
+    display: block;
+    margin-bottom: 25px;
+    height: 800px;
+    width: 100%;
+}
+
+ h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+
+ h1 .seo {
+    color: #d9dcd6;
+}
+
+h2 {
+    font-size: 14pt;
+    margin-bottom: 10px;
+    text-align: center;    
+ }
+
+ h3{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Using Nav for the links */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    list-style-type: none;
+    color: #ffffff;
+  }
+
+  /* This section is for the three boxes on the right */
+  /* Three containers (DIV's) were used within the section */
+section {
+    width:75%; 
+    margin: 20px;
+    color: #ffffff;
+}
+
+section img {
+    max-height: 200px;
+}
+
+section div {
+        background-color: #0072bb;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px
+}
+
+li {
+    display: inline-block;
+    margin-left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+ /* I've used aside for the side bar to the right */
+aside{
+    margin-right: 20px;
+    clear: both;
+    width: 20%;
+    padding: 20px;
+    float: right;
+    color: #ffffff;
+   background-color: #2589bd;
+}
+
+aside p {
+    margin-bottom: 32px;
+}
+
+#last {
+    margin-bottom: 32px;
+}
+aside img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
