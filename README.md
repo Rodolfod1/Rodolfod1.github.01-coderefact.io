@@ -17,4 +17,4 @@ Challenges during the homework:
 General comment: 
 - I have learned so much and have lots of fun learning. 
 
-Rodolfo Diaz.  Sept-12-2020.
+Rodolfo Diaz.  Sept-12-2020 .
