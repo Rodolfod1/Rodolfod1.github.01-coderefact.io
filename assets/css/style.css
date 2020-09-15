@@ -20,12 +20,12 @@ header {
 }
 
 /* This ID element is within the header */
-#mainp{
-    display: block;
-    margin-bottom: 25px;
-    height: 800px;
+#mainp {
     width: 100%;
-}
+    height: 800px;
+    margin-bottom: 25px;
+    background-size: cover;
+  }
 
  h1 {
     display: inline-block;
@@ -74,7 +74,7 @@ nav {
   /* Three containers (DIV's) were used within the section */
 section {
     width:75%; 
-    margin: 20px;
+    margin: 0px 20px 0px 20px;
     color: #ffffff;
 }
 
@@ -106,7 +106,7 @@ li {
 }
  /* I've used aside for the side bar to the right */
 aside{
-    margin-right: 20px;
+    margin:0px 20px 0px 20px;
     clear: both;
     width: 20%;
     padding: 20px;
